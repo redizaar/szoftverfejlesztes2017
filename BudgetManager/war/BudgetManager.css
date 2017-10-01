@@ -2,21 +2,25 @@
 
 
 /** Example rules used by the template application (remove for your app) */
+body{
+	background-color:#000000 !important;
+ }
 h1 {
   font-size: Eem;
   font-weight: bold;
-  color: #777777;
+  color: #AAFD00;
   margin: 20px 0px 40px;
   text-align: center;
   border-style: solid;
 }
-
+h2{
+	color:#F58F21;
+}
 .sendButton {
   	font-size : 15pt;
 	border-radius: 4px;
 	background: #32CD32;
 	text-align:center;
-	color: white;
 }
 /** Most GWT widgets already have a style name defined */
 .gwt-DialogBox {
@@ -31,9 +35,14 @@ h1 {
   color: red;
 }
 .buttons{
-	font-size : 15pt;
+	font-size : 14pt;
 	border-radius: 6px;
-	background: white;
+	background: #32CD32;
+	text-align:center;
+}
+.loginLabel{
+	color:white !important;
+	font-family: "Comic Sans";
 }
 /** Set ids using widget.getElement().setId("idOfElement") */
 #closeButton {

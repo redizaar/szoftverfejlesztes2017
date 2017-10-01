@@ -1,0 +1,3 @@
+# Module budgetmanager
+# RPC service class, partial path of RPC policy file
+swdevelop.BudgetManager.client.GreetingService, 3FAA89B4727FCA442B1B728BD0ACE090.gwt.rpc
